@@ -18,7 +18,7 @@ input:focus, label:focus{
 
 body{
     padding-top: 20vh; /* view height = 5% da tela */
-    background-image: url('../img/corr.jpg');
+    background-image: url('../img/color.jpg');
     background-size: cover;
     
 }

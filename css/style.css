@@ -1,0 +1,95 @@
+/* CSS geral*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+input, label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+    outline: none;
+}
+
+body{
+    padding-top: 20vh; /* view height = 5% da tela */
+    background-image: url('../img/corr.jpg');
+    background-size: cover;
+    
+}
+
+/*form*/
+
+#main-container{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 172, 211);
+    border-radius: 30px;
+    padding: 25px;
+}
+
+#main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: rgb(67, 67, 236);
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border: 2px solid blue ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    background-color: rgba(122, 97, 219, 0.938);
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.color{
+    color: blue;
+}
+
+.error-validation{
+    color: red;
+    position: absolute;
+    top: 57px;
+    font-size: 10px;
+}
+
+.template{
+    display: none;
+}

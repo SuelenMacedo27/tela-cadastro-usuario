@@ -12,23 +12,23 @@
         <form id="register-form">
             <div class="full-box color">
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" data-min-length="6">
+                <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" data-min-length="6" data-required data-email-validate>
             </div>
             <div class="half-box spacing color">
                 <label for="name">Nome</label>
-                <input type="text" name="name" id="name" placeholder="Digite o seu nome">
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome" data-max-length="16" data-only-letters>
             </div>
             <div class="half-box color">
                 <label for="lastname">Sobrenome</label>
-                <input type="text" name="lastname" id="lastname" placeholder="Digite o seu sobrenome">
+                <input type="text" name="lastname" id="lastname" placeholder="Digite o seu sobrenome" data-max-length="16" data-only-letters>
             </div>
             <div class="half-box spacing color">
                 <label for="password">Senha</label>
-                <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha" data-required data-password-validate>
             </div>
             <div class="half-box color">
                 <label for="passconfirmation">Confirmação de senha</label>
-                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme a sua senha">
+                <input type="password" name="passconfirmation" id="passconfirmation" placeholder="Confirme a sua senha" data-equal="password" data-required>
             </div>
             <div class="half-box color">
                 <input type="submit" id="btn-submit" value="Cadastrar">

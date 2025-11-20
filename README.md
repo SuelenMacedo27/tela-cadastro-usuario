@@ -30,6 +30,7 @@ Oferecer uma tela de cadastro clara, segura e eficiente, garantindo que os usuá
 HTML – estrutura do formulário
 
 CSS – estilos e layout
+
 JavaScript – validações e interações
 
 

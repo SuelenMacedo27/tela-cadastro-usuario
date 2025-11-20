@@ -42,3 +42,6 @@ git clone https://github.com/seu-usuario/tela-cadastro-usuario
 Abra o arquivo index.html no navegador.
 
 Preencha os campos e teste as validações.
+
+<img width="867" height="473" alt="tela-cadastro-usuario" src="https://github.com/user-attachments/assets/a597e215-dd7c-4020-95f0-a261e50185d8"/>
+

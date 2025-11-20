@@ -36,8 +36,7 @@ JavaScript – validações e interações
 
 📦 Como usar
 
-Baixe ou clone este repositório: 
-git@github.com:SuelenMacedo27/tela-cadastro-usuario.git
+Baixe ou clone este repositório: git@github.com:SuelenMacedo27/tela-cadastro-usuario.git
 
 Abra o arquivo index.html no navegador.
 
